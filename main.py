@@ -83,13 +83,13 @@ def main():
     image_label_Manager.place(x=1435, y=145)
 
     # Buttons
-    button1 = tk.Button(window, text="Button 1", command=open_window1, width=15, height=3, font=("Helvetica", 14))
+    button1 = tk.Button(window, text="Select", command=open_window1, width=15, height=3, font=("Helvetica", 14))
     button1.place(x=260, y=520)
 
-    button2 = tk.Button(window, text="Button 2", command=open_window2, width=15, height=3, font=("Helvetica", 14))
+    button2 = tk.Button(window, text="Select", command=open_window2, width=15, height=3, font=("Helvetica", 14))
     button2.place(x=860, y=520)
 
-    button3 = tk.Button(window, text="Button 3", command=open_window3, width=15, height=3, font=("Helvetica", 14))
+    button3 = tk.Button(window, text="Select", command=open_window3, width=15, height=3, font=("Helvetica", 14))
     button3.place(x=1470, y=520)
 
     # Start the Tkinter event loop
