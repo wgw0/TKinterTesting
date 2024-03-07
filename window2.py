@@ -16,5 +16,5 @@ class Window2:
 
 # Example usage:
 if __name__ == "__main__":
-    window1 = Window1()
-    window1.run()
+    window2 = Window2()
+    window2.run()
